@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Gallery</title>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/mediagallery.css" />
+
+</head>
+<body>
+
+<div id="div_toggle">
+    <label id="label_toggle" for="input_toggle"><img id="img_toggle" src="images/menu_green.png"/></label>
+</div>
+<input type="checkbox" id="input_toggle"/>
+
+<header>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="contact.html"><li>Contact Me</li></a>
+            <a href="resume.html"><li>Resume</li></a>
+            <a href="mediagallery.html"><li class="active">Media</li></a>
+        </ul>
+    </nav>
+</header>
+
+<div id="video_header">
+    <h1>
+        VIDEOS:
+    </h1>
+</div>
+
+<div class="video">
+    <h1>Patty-Cake Cats</h1>
+    <video controls>
+        <source src="https://s3.amazonaws.com/pdrumm/pattycake_cats.iphone5"
+                type="video/iphone5" media="(max-device-width:480px)">
+        <source src="https://s3.amazonaws.com/pdrumm/pattycake_cats.mp4" type="video/mp4">
+        <source src="https://s3.amazonaws.com/pdrumm/pattycake_cats.ogv" type="video/ogg">
+        This video shows two cats playing patty cake!
+    </video>
+</div>
+
+<div class="video">
+    <h1>Cat-in-a-tub</h1>
+    <video controls>
+        <source src="https://s3.amazonaws.com/pdrumm/tub_cat.iphone5"
+                type="video/iphone5" media="(max-device-width:480px)">
+        <source src="https://s3.amazonaws.com/pdrumm/tub_cat.mp4" type="video/mp4">
+        <source src="https://s3.amazonaws.com/pdrumm/tub_cat.ogv" type="video/ogg">
+        This video shows a cat in a tub!
+    </video>
+</div>
+
+<hr>
+<div id="audio_header">
+    <h1>
+        SONGS:
+    </h1>
+</div>
+
+<div class="audio">
+    <h1>Campfire Song Song</h1>
+    <h3><i>By: Spongebob Squarepants (featuring Patrick Star)</i></h3>
+    <audio controls>
+        <source src="https://s3.amazonaws.com/pdrumm/Campfire_Song_Song.mp3" type="audio/mp3">
+    </audio>
+    <img src="images/Campfire_song_song.png">
+</div>
+
+<div class="audio">
+    <h1>Icky Vicky</h1>
+    <h3><i>By: Chip Skylark (featuring Timmy Turner)</i></h3>
+    <audio controls>
+        <source src="https://s3.amazonaws.com/pdrumm/Icky_Vicky.mp3" type="audio/mp3">
+    </audio>
+    <img src="images/Vicky.png">
+</div>
+
+<div id="pre_footer"></div>
+<footer>
+    Want to know more? Leave your contact info and a message
+    <a href="contact.html">here</a>
+    and I might just get back to you!
+</footer>
+
+</body>
+</html>

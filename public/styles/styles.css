@@ -1,0 +1,234 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #484848;
+}
+h1, h2, h3, h4, h5 {
+    color: #2b2b2b;
+}
+body {
+    height: 99%;
+    width: 99%;
+    margin: 0.5%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+}
+/* Start header */
+header {
+    height: 7%;
+    width: 100%;
+    margin-bottom: 0.5%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    header {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0.5%;
+    }
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: solid black 1px;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+@media only screen
+and (max-device-width: 667px) {
+    nav {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: solid black 1px;
+        font-size: 35pt;
+        font-family: Arial, sans-serif;
+    }
+}
+
+nav ul {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+}
+@media only screen
+and (max-device-width: 667px) {
+    nav ul {
+        height: 100%;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #444;
+    }
+}
+
+nav a {
+    display: table;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    padding: 0;
+    width: 7%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    nav a{
+        display: table;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        height: 25%;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    nav a li {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        border-top: solid 1px #4CAF50;
+    }
+}
+
+nav ul a li:hover {
+    background-color: #666;
+}
+
+nav ul a li.active {
+    background-color: #4CAF50;
+}
+
+nav ul a li.active:hover {
+    background-color: #7caf76;
+}
+/* Hide elements for mobile dropdown menu */
+@media only screen
+and (min-device-width: 668px) {
+    div#div_toggle,
+    label#label_toggle,
+    img#img_toggle,
+    input#input_toggle {
+        display: none;
+    }
+}
+/* Toggle menu trick (below) found from a combination of sources:
+http://www.outofscope.com/css-only-menu-toggle-no-javascript-required/
+and http://stackoverflow.com/questions/22103006/css3-transition-doesnt-work-with-display-property */
+@media only screen
+and (max-device-width: 667px) {
+    div#div_toggle {
+        height: 12%;
+        padding-left: 2%;
+        background-color: #444;
+        border: solid 1px #444;
+    }
+    label#label_toggle {
+        height: 100%;
+    }
+    label#label_toggle img#img_toggle {
+        height: 100%;
+    }
+
+    #input_toggle {
+        display: none;
+    }
+
+    header {
+        opacity: 0;
+        clear: both;
+        height: 0;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+
+        -webkit-transition: all .3s ease .15s;
+        -moz-transition: all .3s ease .15s;
+        -o-transition: all .3s ease .15s;
+        -ms-transition: all .3s ease .15s;
+        transition: all .3s ease .15s;
+    }
+
+    #input_toggle:checked + header {
+        opacity: 1;
+        height: 88%;
+    }
+}
+/* End header */
+
+fieldset {
+    background-color: #d9ffcc;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 3px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+
+input:invalid {
+    border-color: red;
+    background-color: rgb(255, 220, 220);
+}
+
+button {
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #d9ffcc;
+}
+
+div#pre_footer{
+    clear: both;
+    width: 100%;
+    height: 3%;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    border-top: solid darkgray 1px;
+    font-style: oblique;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

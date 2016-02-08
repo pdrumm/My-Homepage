@@ -1,0 +1,164 @@
+article {
+    width: 100%;
+    height: 75%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    article {
+        height: auto;
+    }
+}
+
+figure {
+    max-width: 21%;
+    margin: 0% 9% 0% 5%;
+    display: block;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    figure {
+        max-width: none;
+        width: 100%;
+        float: none;
+        margin: 0;
+        font-size: 30pt;
+    }
+}
+
+figure img {
+    max-width: 100%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    figure img {
+        max-width: none;
+        width: 60%;
+    }
+}
+
+figure h1 {
+    font-size: 25pt;
+}
+@media only screen
+and (max-device-width: 667px) {
+    figure h1 {
+        font-size: 70pt;
+    }
+}
+
+div#list_container {
+    width: 33%;
+    display: block;
+    float: left;
+    padding-top: 5%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#list_container {
+        width: 100%;
+        float: none;
+    }
+}
+
+section.lists {
+    width: 100%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    section.lists h3 {
+        margin-left: 5%;
+        margin-bottom: 1%;
+        font-size: 50pt;
+    }
+    section.lists ul, section.lists ol {
+        margin-left: 10%;
+        font-size: 22pt;
+    }
+}
+
+div#contact_container {
+    width: 30%;
+    display: block;
+    float: left;
+    padding-top: 6%;
+    height: 50%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#contact_container {
+        width: 100%;
+        float: none;
+        text-align: center;
+        height: auto;
+    }
+}
+
+div.split_contact1 {
+    width: 100%;
+    height: 20%;
+}
+div.split_contact2 {
+    width: 100%;
+    height: 30%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div.split_contact1 {
+        height: 25%;
+    }
+    div.split_contact2 {
+        height: 25%;
+    }
+}
+
+div#contact_container h4 {
+    margin-bottom: 2%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#contact_container h4 {
+        margin-bottom: 1%;
+        font-size: 50pt;
+        display: inline-block;
+    }
+}
+
+div#contact_container p {
+    margin-top: 1%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#contact_container p {
+        font-size: 38pt;
+        display: inline;
+        margin-bottom: 0;
+    }
+}
+
+div#contact_container a {
+    display: block;
+    height: 50%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#contact_container a {
+        display: inline-block;
+        white-space: nowrap;
+        width: 9%;
+    }
+}
+div#contact_container img {
+    margin-left: 1%;
+    height: 100%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#contact_container img {
+        width: 100%;
+        margin-left: 0%;
+        height: auto;
+    }
+}

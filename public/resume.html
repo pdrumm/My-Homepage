@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/resume.css" />
+
+</head>
+<body>
+
+<div id="div_toggle">
+    <label id="label_toggle" for="input_toggle"><img id="img_toggle" src="images/menu_green.png"/></label>
+</div>
+<input type="checkbox" id="input_toggle"/>
+
+<header>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="contact.html"><li>Contact Me</li></a>
+            <a href="resume.html"><li class="active">Resume</li></a>
+            <a href="mediagallery.html"><li>Media</li></a>
+        </ul>
+    </nav>
+</header>
+
+<article>
+    <section id="header">
+        <div id="header_left">
+            <figure id="pro_pic">
+                <img id="PD_img" src="images/resume-pic.jpg" alt="Patrick Drumm">
+                <!--            <figcaption>Contact Info</figcaption>-->
+            </figure>
+        </div>
+        <div id="header_center">
+            <section id="head_cntr_1">
+                <h1 id="name">Patrick Drumm</h1>
+            </section>
+            <section id="head_cntr_2"><h3>Email:&nbsp;</h3>pdrumm@nd.edu</section>
+            <section id="head_cntr_3"><h3>Phone:&nbsp;</h3>513-827-8227</section>
+            <section id="head_cntr_4">
+                <h3>School Address:</h3>
+                <br/>453 Keough Hall
+                <br/>Notre Dame, IN 46556
+            </section>
+            <section id="head_cntr_5"><h3>Repositories:&nbsp;</h3>
+                    <a target="_blank" href="https://bitbucket.org/pdrumm/"><img class="repo_icon" src="images/bitbucket_logo.png"></a>
+                    <a target="_blank" href="https://github.com/pdrumm"><img class="repo_icon" src="images/github_logo.png"></a>
+            </section>
+        </div>
+        <div id="header_right"></div>
+    </section>
+
+    <section id="education" class="big_section">
+        <div class="left_headers">
+            <h1 class="section_titles">Education:</h1>
+        </div>
+        <div id="notre_dame" class="schools">
+            <h1 class="schools">University of Notre Dame </h1><i>- Notre Dame, IN</i>
+            <ul>
+                <li>Bachelor of Science | Computer Science</li>
+                <li>Graduation Month: May 2017</li>
+                <li>GPA: 3.96/4.0</li>
+            </ul>
+        </div>
+        <div id="st_xavier" class="schools">
+            <h1 class="schools">St. Xavier High School </h1><i>- Cincinnati, OH</i>
+            <ul>
+                <li>High School Diploma | General Studies</li>
+                <li>Graduation Month: June 2013</li>
+                <li>GPA: 4.0/4.0</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="big_section">
+        <div class="left_headers">
+            <h1 class="section_titles">Technical Skills:</h1>
+        </div>
+        <div class="skills" id="top_skill">
+            <h3 class="skills">Profficient in: </h3>
+            C++, C, MySQL, Git, regular expressions, HTML, CSS, MATLAB, linux systems
+        </div>
+        <div class="skills">
+            <h3 class="skills">Experience with: </h3>
+            Javascript, PL/SQL, Python, C#, shell scripting, Scheme
+        </div>
+        <div class="skills">
+            <h3 class="skills">Code Repositories: </h3>
+            <a target="_blank" href="https://bitbucket.org/pdrumm/">Bitbucket</a>,
+            <a target="_blank" href="https://github.com/pdrumm">Github</a>
+        </div>
+    </section>
+
+    <section id="work" class="big_section">
+        <div class="left_headers">
+            <h1 class="section_titles">Work Experience:</h1>
+        </div>
+        <table summary="work experience">
+            <tr><td>
+                <h3>University of Notre Dame</h3>
+                <i>Student Teaching Assistant - Basic Unix for Engineers, Introduction to Engineering Systems</i>
+                <ul>
+                    <li>Developed problem solving skills by utilizing prior knowledge to assist students in mastering required material.</li>
+                    <li>Learned to create a motivational environment for students and encourage curiosity in order to promote further learning in the course.</li>
+                </ul>
+            </td></tr>
+            <tr><td>
+                <h3>Kroger Technology Center</h3>
+                <i>IS&S Intern - Facilities Maintenance Team</i>
+                <ul>
+                    <li>Handled daily support tickets for Facilities Maintenance Team utilizing internal applications and database systems.</li>
+                    <li>Developed a web application to streamline the employee workstation placement process as part of intern-led project team.</li>
+                </ul>
+            </td></tr>
+            <tr><td>
+                <h3>Blue Ash Golf Course</h3>
+                <i>Grounds Maintenance Crew</i>
+                <ul>
+                    <li>Developed strong teamwork skills while collaborating with crew members in order to ensure the cultivation of the golf course.</li>
+                </ul>
+            </td></tr>
+        </table>
+    </section>
+
+    <section id="activities" class="big_section">
+        <div class="left_headers">
+            <h1 class="section_titles">Activities:</h1>
+        </div>
+        <div id="activity_list">
+            Interhall Cross Country,
+            Summer Service Learning Program,
+            Hack-a-thons and personal coding projects
+        </div>
+    </section>
+
+    <section id="footer">
+        <h2>
+            References:
+        </h2>
+        <ul>
+            <li>Victoria Goodrich (vfroude@nd.edu)</li>
+            <li>Mike Dehring (mdehring@stxavier.org)</li>
+        </ul>
+    </section>
+</article>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+div#body {
+    width: 50%;
+    max-width: 500px;
+    padding: 4% 4% 4% 2%;
+    border: solid 1px;
+    border-color: black;
+    background-color: white;
+    margin-top: 1%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#body {
+        width: 98%;
+        max-width: none;
+        padding: 1%;
+        margin: 2% 0% 2% 0%;
+    }
+}
+
+div#header {
+    width: 77%;
+    margin: 0% 10% 5% 10.25%;
+    background-color: white;
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: #d9ffcc;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#header {
+        width: 92%;
+        margin: 3% 2%;
+    }
+}
+
+form {
+    width: 80%;
+    margin: 0% 10%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    form {
+        width: 96%;
+        margin: 0% 2%;
+    }
+}
+
+h2 {
+    margin: 0;
+}
+@media only screen
+and (max-device-width: 667px) {
+    h2 {
+        font-size: 55pt;
+    }
+}
+
+fieldset {
+    width: 90%;
+    padding: 2% 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+@media only screen
+and (max-device-width: 667px) {
+
+}
+
+legend {
+    background-color: #d9ffcc;
+    border: solid 1px gray;
+    border-bottom-color: #d9ffcc;
+    border-radius: 3px;
+    font-weight: bold;
+}
+@media only screen
+and (max-device-width: 667px) {
+    legend {
+        font-size: 40pt;
+        font-style: oblique;
+    }
+}
+
+label {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+@media only screen
+and (max-device-width: 667px) {
+    label {
+        font-size: 35pt;
+        width: 23%;
+    }
+}
+
+input {
+    width: 70%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    input {
+        height: 100%;
+        font-size: 30pt;
+    }
+}
+
+textarea {
+    width: 91%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    textarea {
+        font-size: 25pt;
+        width: 93%;
+    }
+}
+
+button {
+    width: 80%;
+    margin: 0% 10%;
+    height: 100%;
+    font-size: 12pt;
+    font-weight: 600;
+    padding: 1%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    button {
+        width: 96%;
+        margin: 2% 2% 3% 2%;
+        font-size: 42pt;
+        background-color: lightgray;
+    }
+}

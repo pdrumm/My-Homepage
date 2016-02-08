@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+
+	<!-- js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+	<script src="scripts/submit.js"></script>
+	<script src="scripts/html5Forms.js" data-webforms2-support="all"
+			data-webforms2-force-js-validation="true"></script>
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="styles/contact.css" />
+
+</head>
+
+<body>
+
+<div id="div_toggle">
+	<label id="label_toggle" for="input_toggle"><img id="img_toggle" src="images/menu_green.png"/></label>
+</div>
+<input type="checkbox" id="input_toggle"/>
+
+<header>
+	<nav>
+		<ul>
+			<a href="index.html"><li>Home</li></a>
+			<a href="contact.html"><li class="active">Contact Me</li></a>
+			<a href="resume.html"><li>Resume</li></a>
+			<a href="mediagallery.html"><li>Media</li></a>
+		</ul>
+	</nav>
+</header>
+	<!-- Contact Form -->
+	<section>
+	<div id="body">
+		<div id="header">
+			<h2>
+				Contact me with a message!
+			</h2>
+		</div>
+		<form id="contact">
+			<fieldset>
+				<legend>Contact Info</legend>
+			<p>
+				<label for="nameid">Name: <em>*</em></label>
+				<input type="text" id="nameid" placeholder="Patrick" required>
+			</p>
+			<p>
+				<label for="phoneid">Phone: <em>*</em></label>
+				<input type="tel" id="phoneid" placeholder="123-456-7890" required>
+			</p>
+			<p>
+				<label for="emailid">Email: </label>
+				<input type="email" id="emailid" placeholder="patrick@gmail.com">
+			</p>
+			</fieldset>
+			<fieldset>
+				<legend>Message</legend>
+			<p>
+				<textarea id="messageid" placeholder="This is a placeholder message!"></textarea>
+			</p>
+			</fieldset>
+		</form>
+		<button onclick="sendMessage()">Send</button>
+	</div>
+	</section>
+
+<div id="pre_footer"></div>
+<footer>
+	Want to know more? Leave your contact info and a message
+	<a href="contact.html">here</a>
+	and I might just get back to you!
+</footer>
+
+</body>
+
+</html>

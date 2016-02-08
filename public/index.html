@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+
+</head>
+<body>
+<div id="div_toggle">
+    <label id="label_toggle" for="input_toggle"><img id="img_toggle" src="images/menu_green.png"/></label>
+</div>
+<input type="checkbox" id="input_toggle"/>
+
+<header>
+    <nav>
+        <ul id="nav_menu">
+            <a href="index.html"><li class="active">Home</li></a>
+            <a href="contact.html"><li>Contact Me</li></a>
+            <a href="resume.html"><li>Resume</li></a>
+            <a href="mediagallery.html"><li>Media</li></a>
+        </ul>
+    </nav>
+</header>
+
+<article>
+    <figure>
+        <h1 class="header">&nbsp;Patrick Drumm</h1>
+        <img id="PD_img" src="images/profile-pic.jpg" alt="Patrick Drumm"/>
+        <figcaption>I go to school at Notre Dame! <i>Go Irish!</i></figcaption>
+    </figure>
+
+    <div id="list_container">
+    <section id="hobbies" class="lists">
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Running</li>
+            <li>Coding</li>
+            <li>Sleeping</li>
+        </ul>
+    </section>
+    <section id="movies" class="lists">
+        <h3>Movies</h3>
+        <ol>
+            <li><a class="movie" target="_blank" href="http://www.imdb.com/title/tt0311429/">The League of Extraordinary Gentlemen</a></li>
+            <li><a class="movie" target="_blank" href="http://www.imdb.com/title/tt0330373/">Harry Potter and the Goblet of Fire</a></li>
+            <li><a class="movie" target="_blank" href="http://www.imdb.com/title/tt0434409/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2239792642&pf_rd_r=05JM750HNHZ0SEF1RY4E&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_145">V for Vendetta</a></li>
+            <li><a class="movie" target="_blank" href="http://www.imdb.com/title/tt0443274/?ref_=nv_sr_1">Vantage Point</a></li>
+        </ol>
+    </section>
+    <section id="websites" class="lists">
+        <h3>Websites</h3>
+        <ol>
+            <li><a class="website" target="_blank" href="http://espn.go.com/">ESPN</a></li>
+            <li><a class="website" target="_blank" href="https://www.google.com/">Google</a></li>
+            <li><a class="website" target="_blank" href="https://slack.com/">Slack</a></li>
+            <li><a class="website" target="_blank" href="http://stackoverflow.com/">Stack Overflow</a></li>
+        </ol>
+    </section>
+    </div>
+
+    <div id="contact_container">
+        <div class="split_contact1">
+            <h4>Email:</h4>
+            <p>pdrumm@nd.edu</p>
+        </div>
+        <div class="split_contact1">
+            <h4>Phone:</h4>
+            <p>513-827-8227</p>
+        </div>
+        <div class="split_contact2">
+            <h4>Bitbucket:</h4>
+            <a target="_blank" href="https://bitbucket.org/pdrumm/cse-40613-web-applications"><img src="images/bitbucket_green.png" alt="Bitbucket" class="repo_icon"></a>
+        </div>
+        <div class="split_contact2">
+            <h4>Github:</h4>
+            <a target="_blank" href="https://github.com/pdrumm"><img src="images/github_green.png" alt="Github" class="repo_icon"></a>
+        </div>
+    </div>
+
+</article>
+
+<div id="pre_footer"></div>
+<footer>
+    Want to know more? Leave your contact info and a message
+    <a href="contact.html">here</a>
+    and I might just get back to you!
+</footer>
+</body>
+</html>

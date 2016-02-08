@@ -1,0 +1,101 @@
+div#video_header {
+    margin: 4% 0% 1% 0%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+div#video_header h1 {
+    text-decoration: underline;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#video_header h1 {
+        font-size: 60pt;
+    }
+}
+
+div.video {
+    padding: 0%;
+    width: 50%;
+    display: block;
+    float: left;
+    margin-bottom: 4%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div.video {
+        width: 100%;
+        float: none;
+    }
+}
+
+div video {
+    max-width: 80%;
+    margin-bottom: 3%;
+    padding: 0% 10%;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div video {
+        width: 80%;
+    }
+}
+
+div.video h1 {
+    text-align: center;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div.video h1 {
+        font-size: 40pt;
+        text-align: left;
+        margin-left: 10%;
+    }
+}
+
+div#audio_header {
+    text-align: center;
+    margin-top: 4%;
+}
+
+div#audio_header h1 {
+    text-decoration: underline;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div#audio_header h1 {
+        font-size: 60pt;
+    }
+}
+
+div.audio {
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    display: block;
+    float: left;
+}
+@media only screen
+and (max-device-width: 667px) {
+    div.audio {
+        width: 100%;
+        float: none;
+        margin-bottom: 5%;
+    }
+}
+
+div.audio h1, div.audio h3 {
+    text-align: center;
+}
+
+div.audio img {
+    max-width: 50%;
+    margin: 0% 25%;
+}
+
+div audio {
+    max-width: 36%;
+    margin-bottom: 1%;
+    padding: 0% 32%;
+}
